@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8"/>
     <title>Résumé</title>
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
 <main>
@@ -26,84 +27,153 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="resume__block">
+            <div class="contact_info_container fh">
+                <div class="contact-info__block">
+                    <div class="contact-info__item" onclick="copyToClipboard('+380959390514')">
+                        <div class="contact-info__item-icon-wrapper">
+                            <i class="fas fa-phone contact-info__item-icon"></i>
+                        </div>
+                        <span>+380959390514</span>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-icon-wrapper">
+                            <i class="fab fa-linkedin contact-info__item-icon"></i>
+                        </div>
+                        <a href="https://www.linkedin.com/in/yaroslav-pendo-6a65ba29a" rel="author">LinkedIn</a>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__item-icon-wrapper">
+                            <i class="fab fa-telegram contact-info__item-icon"></i>
+                        </div>
+                        <a href="https://t.me/Kantiian" rel="author">Telegram</a>
+                    </div>
+                    <div class="contact-info__item" onclick="copyToClipboard('yarik062002@gmail.com')">
+                        <div class="contact-info__item-icon-wrapper">
+                            <i class="fas fa-envelope contact-info__item-icon"></i>
+                        </div>
+                        <span>yarik062002@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="resume__block">
+            <div class="intro">
+                <div class="intro__icon-wrapper">
+                    <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
+                    </svg>
+                </div>
+                <p class="intro_text">I'm Yaroslav, a motivated software engineering student with a good background in Java. I'm actively expanding my skills in JavaScript and full-stack development, focusing on Node.js and React. My goal is to build high-quality web applications and continually learn new technologies and approaches.JavaScript has one of the most beautiful syntaxes. Working on it brings not only benefits, but also pleasure. I am sure that the course will help me make my skills more flexible and I hope to become a Full stack developer. I'm eager to get good experience working with React and Node.js and be able to use JavaScript as my main language.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="resume__block">
+            <div class="main-info fh">
+                <div class="experiences">
+                    <h3 class="experiences__header"><i class="fas fa-code"></i> Student Projects</h3>
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">2023</span>
+                            <h3 class="experiences__company-header-name">Ticket Sales Website</h3>
+                        </div>
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Full-Stack Developer</span>
+                            <h3 class="experiences__company-project-name">University Project</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Developed client-server application using Java and React</li>
+                                <li>Implemented user authentication and payment integration</li>
+                                <li>Designed responsive UI for ticket purchasing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">2022</span>
+                            <h3 class="experiences__company-header-name">Library Management System</h3>
+                        </div>
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Backend Developer</span>
+                            <h3 class="experiences__company-project-name">University Project</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Developed backend using Java Spring Boot</li>
+                                <li>Implemented RESTful APIs</li>
+                                <li>Integrated frontend using React</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">2021</span>
+                            <h3 class="experiences__company-header-name">Student Management System</h3>
+                        </div>
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Full-Stack Developer</span>
+                            <h3 class="experiences__company-project-name">Course Project</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Developed a web application using Java and React</li>
+                                <li>Designed and implemented database schema</li>
+                                <li>Created responsive UI components</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experiences__company">
+                        <div class="experiences__company-header">
+                            <span class="experiences__company-header-durability">2021</span>
+                            <h3 class="experiences__company-header-name">Course Management System</h3>
+                        </div>
+                        <div class="experiences__company-project">
+                            <span class="experiences__company-project-role">Full-Stack Developer</span>
+                            <h3 class="experiences__company-project-name">Personal Project</h3>
+                            <ul class="experiences__company-project-responsibilities">
+                                <li>Developed a web application using Java and React</li>
+                                <li>Implemented user registration and course enrollment</li>
+                                <li>Designed and developed frontend components</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="additional-info fv">
+                    <div class="additional-info__education">
+                        <h3 class="additional-info__education-header"><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability">2019-2023</span>
+                            <h3 class="additional-info__education-university-speciality">Bachelor in Software Engineering</h3>
+                            <p class="additional-info__education-university-name">National Aerospace University «Kharkiv Aviation Institute»</p>
+                        </div>
+                        <div class="additional-info__education-university">
+                            <span class="additional-info__education-university-durability">2023-2024</span>
+                            <h3 class="additional-info__education-university-speciality">Master in Software Engineering</h3>
+                            <p class="additional-info__education-university-name">National Aerospace University «Kharkiv Aviation Institute»</p>
+                        </div>
+                        <div class="additional-info__languages">
+                            <h3 class="additional-info__languages-header"><i class="fas fa-language"></i> Languages</h3>
+                            <p class="additional-info__languages-item">English</p>
+                            <p class="additional-info__languages-item">Ukrainian</p>
+                        </div>
+
+                        <div class="additional-info__hobbies">
+                            <h3 class="additional-info__hobbies-header"><i class="fas fa-info-circle"></i> Additional Information</h3>
+                            <p class="additional-info__hobbies-item">3D Modeling</p>
+                            <p class="additional-info__hobbies-item">Yoga</p>
+                            <p class="additional-info__hobbies-item">Woodworking</p>
+                            <p class="additional-info__hobbies-item">Running</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
-<div class="container">
-    <div class="resume__block">
-        <div class="intro">
-            <div class="intro__icon-wrapper">
-                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
-                </svg>
-            </div>
-            <p class="intro_text">I'm Yaroslav, a software developer driven by innovation and problem-solving. With a strong background in computer science, I'm dedicated to pushing boundaries and crafting elegant solutions through code. Currently, I'm focusing on JavaScript to expand my expertise and deliver high-quality web applications.</p>
-        </div>
-    </div>
-</div>
 
-<div class="container">
-    <div class="resume__block">
-        <div class="skills">
-            <h3 class="skills__header">Skills</h3>
-            <p class="skills__text">Problem solving, Continuous Learning, Team Collaboration</p>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="resume__block">
-        <div class="main-info fh">
-            <div class="experiences">
-                <h3 class="experiences__header">Experience</h3>
-                <div class="experiences__company">
-                    <div class="experiences__company-header">
-                        <span class="experiences__company-header-durability">2022-Present</span>
-                        <h3 class="experiences__company-header-name">Freelance</h3>
-                    </div>
-                    <div class="experiences__company-project">
-                        <span class="experiences__company-project-role">Full-Stack Developer</span>
-                        <h3 class="experiences__company-project-name">Various Web Projects</h3>
-                        <ul class="experiences__company-project-responsibilities">
-                            <li>Backend Architecture</li>
-                            <li>Frontend Development</li>
-                            <li>API Integration</li>
-                            <li>Code Maintenance</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="experiences__company">
-                    <div class="experiences__company-header">
-                        <span class="experiences__company-header-durability">2021</span>
-                        <h3 class="experiences__company-header-name">Binary Studio Academy</h3>
-                    </div>
-                    <div class="experiences__company-project">
-                        <span class="experiences__company-project-role">Trainee</span>
-                        <h3 class="experiences__company-project-name">Full-Stack Development Program</h3>
-                        <ul class="experiences__company-project-responsibilities">
-                            <li>Completed training projects</li>
-                            <li>Learned best practices of software development</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="additional-info fv">
-                <div class="additional-info__education">
-                    <h3 class="additional-info__education-header">Education</h3>
-                    <div class="additional-info__education-university">
-                        <span class="additional-info__education-university-durability"> 2021 </span>
-                        <h3 class="additional-info__education-university-speciality">Full-Stack Development</h3>
-                        <p class="additional-info__education-university-name">Binary Studio Academy</p>
-                    </div>
-                </div>
-
-                <div class="additional-info__languages">
-                    <h3 class="additional-info__languages-header">Languages</h3>
-                    <p class="additional-info__languages-item">English</p>
-                    <p class="additional-info__languages-item">Ukrainian</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<script src="javaScript.js"></script>
 </body>
 </html>
